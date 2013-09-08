@@ -1,0 +1,9 @@
+@import "center/vertical";
+@import "center/horizontal";
+
+// center a full width line of child elements horizontally
+// and vertically
+@mixin center {
+  @include center_horizontally;
+  @include center_vertically;
+}

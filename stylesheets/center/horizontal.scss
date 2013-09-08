@@ -1,0 +1,8 @@
+// horizontally center a full width line of child elements
+@mixin center_horizontally {
+  text-align: center;
+  * {
+    display: inline-block;
+  }
+}
+
